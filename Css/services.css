@@ -1,0 +1,155 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: rgba(24, 36, 50, 0.837);
+  height: 100vh;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 8vh;
+  color: white;
+  padding: 0 1rem;
+  border-bottom: 2px solid rgb(159, 1, 159);
+}
+
+nav h1 span {
+  color: rgb(159, 1, 159);
+}
+
+nav div a {
+  text-decoration: none;
+  color: white;
+  padding: 0 0.5rem;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.services:visited {
+  color: rgb(159, 1, 159);
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 9vh;
+  padding: 0 0.5rem 0 1.2rem;
+  color: white;
+}
+
+section form .btn {
+  padding: 0.4rem 1rem;
+  border: none;
+  background-color: tomato;
+  color: white;
+}
+
+section form .input_mail {
+  padding: 0.4rem 3.5rem 0.4rem 0.5rem;
+  border: none;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.2rem 0 1.2rem;
+  background-color: white;
+  height: 70vh;
+}
+
+.main1 {
+  /* padding-right: 4rem; */
+  padding-top: 1.2rem;
+  /* border: 1px solid red; */
+}
+
+.main1 h3 {
+  padding-bottom: 1rem;
+}
+
+.main1 .part {
+  /* border: 1px solid red; */
+  margin: 0.25rem 0;
+  height: 18vh;
+  background-color: rgb(234, 232, 232);
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.main1 .part div p {
+  padding: 0.5rem 0;
+}
+
+.main2 {
+  /* border: 1px solid red; */
+  padding-top: 1rem;
+}
+
+.main2 .main2_div {
+  /* border: solid 3px red; */
+  background-color: rgba(24, 36, 50, 0.837);
+  color: white;
+  padding: 1.5rem 2rem 0.75rem 0.75rem;
+}
+
+.main2 .main2_div div label {
+  display: block;
+}
+
+.main2 .main2_div div label,
+input {
+  margin: 0.1rem 0;
+  border: none;
+}
+
+.main2 .main2_div div .box {
+  padding: 0.3rem 0.2rem;
+}
+
+.main2 .main2_div div .box2 {
+  padding: 0 0.2rem 2rem 0.2rem;
+}
+
+.main2 .main2_div div .input_name {
+  padding-right: 10rem;
+}
+
+.main2 .main2_div div .input_send {
+  padding: 0.3rem 0.6rem;
+  background-color: tomato;
+  color: white;
+}
+
+.main2 .main2_div h3 {
+  padding-bottom: 1rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 13vh;
+  color: white;
+}
+
+footer div img {
+  width: 10rem;
+  padding: 0.2rem 0;
+}
+
+footer div {
+  text-align: center;
+}
