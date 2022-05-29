@@ -11,7 +11,7 @@
   height: 100vh;
   width: 100%;
   font-family: "Montserrat", sans-serif;
-  font-size: 13px;
+  /* font-size: 13px; */
 }
 
 nav {
@@ -33,7 +33,7 @@ nav div a {
   color: white;
   padding: 0 0.5rem;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .home:visited {
